@@ -70,14 +70,14 @@ public static int max(int size) {
         for (int i =0;i< array.length; i++){
             if (array[i]==value){
                 index = i;
-                System.out.println("Your searched value is here: " + index);
                 break;
             }
             else {
                 index =-1;
-                System.out.println("Your searched value is not found: " + index);
             }
+
         }
+        System.out.println("Your searched value is here: " + index);
         return index;
     }
     public static void main(String[] args) {
